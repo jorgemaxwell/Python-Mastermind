@@ -1,11 +1,13 @@
 def run():
-    print(' hola mundo ')
-    print(' esta es una prueba ')
-    num1= int(input("Dame tu numero "))
-    num2= int(input('Dame otro numero '))
-    respuesta= num1+num2
-    respuesta= str(respuesta)
-    print('la suma de ambos numeros es ' + respuesta)
+    print("este programa te dira cual es el número menor y cual es el número mayor")
+    num1= int(input("por favor ingresa el primer valor "))
+    num2= int(input('Por favor ingresa el segundo valor '))
+    if num1 > num2:
+        num1=str(num1)
+        print('el numero mayor es ' + num1)
+    else:
+        num2=str(num2)
+        print('el numero mayor es ' + num2)
 if __name__ == '__main__':
     run()
 
