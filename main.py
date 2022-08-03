@@ -4,10 +4,14 @@ def run():
     num2= int(input('Por favor ingresa el segundo valor '))
     if num1 > num2:
         num1=str(num1)
+        num2=str(num2)
         print('el numero mayor es ' + num1)
+        print('el numero menor es ' + num2)
     else:
         num2=str(num2)
+        num1=str(num1)
         print('el numero mayor es ' + num2)
+        print('el numero menor es ' + num1)
 if __name__ == '__main__':
     run()
 
